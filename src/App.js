@@ -30,7 +30,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <h3 onClick={this.changeIt}><DivOne tardis={this.state.tardis.name} /></h3>
+        <h3 onClick={this.changeIt}><DivOne tardis={this.state.tardis} /></h3>
         {/*<h3 onClick={this.changeIt}>{this.state.tardis.name}</h3>*/}
       </div>
     );
