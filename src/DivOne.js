@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-
 class DivOne extends Component {
     render() {
         return (

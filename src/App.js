@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import DivOne from './DivOne';
+import DivTwo from './DivTwo';
+import DivThree from './DivThree';
 import './App.css';
 
 class App extends Component {
@@ -30,7 +32,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <h3 onClick={this.changeIt}><DivOne tardis={this.state.tardis} /></h3>
+        <h3 onClick={this.changeIt}> <DivThree tardis={this.state.tardis} /> </h3>
         {/*<h3 onClick={this.changeIt}>{this.state.tardis.name}</h3>*/}
       </div>
     );
